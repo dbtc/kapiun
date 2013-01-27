@@ -1,0 +1,94 @@
+# from https://github.com/github/gitignore
+*.py[co]
+
+#TeX stuff
+*.pdf
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.lof
+*.log
+*.lot
+*.nlo
+*.out
+*.toc
+*.fdb_latexmk
+*.pdfsync
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Python Sphinx build directory
+_build
+
+# Compiled Dynamic libraries
+*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.*
+!.gitignore
+*~
+*.sw[a-p]
+
+# KDE
+.directory
+.DS_Store
+Icon?
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+# Ignore tags created by etags and ctags
+TAGS
+tags
+*.tmproj
+*.tmproject
+tmtags
+*.swp
+*.swo.*.sw[a-z]
+*.un~
+Session.vim
